@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 using namespace std;
 class batsman
 {
@@ -21,7 +20,7 @@ public:
 
         cout << "Enter Played Inning : ";
         cin >> inning;
-        cout << "Enter Not-Out Inning : ";
+        cout << "Enter Not-Out : ";
         cin >> notout;
         cout << "Enter Batsman Runs : ";
         cin >> runs;
