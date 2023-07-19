@@ -18,7 +18,6 @@ public:
         cin >> bookTitle;
         cout << "enter book price : ";
         cin >> price;
-
         cout << "Enter the number of copies to be purchased: ";
         cin >> n;
 
