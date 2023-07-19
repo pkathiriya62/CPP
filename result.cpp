@@ -23,7 +23,9 @@ public:
         cin >> c;
         total = p + c + m;
         pr = (total * 100) / 300;
-
+    }
+    void display()
+    {
         cout << "admno:" << admno << endl;
         cout << "sname:" << sname << endl;
         cout << "physic:" << p << endl;
@@ -36,4 +38,5 @@ public:
 int main()
 {
     marksheet m;
+    m.display();
 }

@@ -29,7 +29,9 @@ public:
         {
             Fuel = 2200;
         }
-
+    }
+    void display()
+    {
         cout << "flight number :" << flightNo << endl;
         cout << "destinatio : " << Destination << endl;
         cout << "total distance : " << Distance << "km" << endl;
@@ -40,4 +42,5 @@ public:
 int main()
 {
     flight f;
+    f.display();
 }

@@ -22,6 +22,9 @@ public:
         cin >> n;
 
         totalcost = price * n;
+    }
+    void display()
+    {
         cout << "Total cost to be paid: " << totalcost << endl;
     }
 };
@@ -29,4 +32,5 @@ public:
 int main()
 {
     book b;
+    b.display();
 }
