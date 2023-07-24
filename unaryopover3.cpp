@@ -11,7 +11,7 @@ public:
     }
     void getdata()
     {
-        cout << "number is:" << real << "+" << img << "i" << endl;
+        cout << "number is:" << real << "-" << img << "i" << endl;
     }
     number operator--(int)
     {
