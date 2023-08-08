@@ -28,7 +28,7 @@ int calc(int x)
     cgst = (x * 2.5) / 100;
     netbill = x - discount + sgst + cgst;
 
-    cout << "         Hi - FI               " << endl;
+    cout << "<<<<<<<<<<pkathiriya62>>>>>>>>>>" << endl;
     cout << "    Fast Food & Cold drinks  " << endl;
 
     cout << " Discount......  " << discount << endl;
@@ -51,8 +51,8 @@ int main()
     do
     {
 
-        cout << "                                Hi-Fi            " << endl;
-        cout << "                        Fast Food   & Cold drinks    " << endl;
+        cout << "<<<<<<<<<<pkathiriya62>>>>>>>>>>" << endl;
+        cout << "    Fast Food   & Cold drinks    " << endl;
         cout << "1.Pani puri..........20 Rs                  6.Ghughra............20 Rs " << endl;
         cout << "2.Vada pav...........30 Rs                  7.Fafdi Gathiya......30 Rs " << endl;
         cout << "3.Kachchi Dabeli.....30 Rs                  8.Chat papdi.........30 Rs " << endl;
