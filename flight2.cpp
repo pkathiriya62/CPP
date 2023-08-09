@@ -33,7 +33,7 @@ public:
     void display()
     {
         cout << "flight number :" << flightNo << endl;
-        cout << "destinatio : " << Destination << endl;
+        cout << "destination : " << Destination << endl;
         cout << "total distance : " << Distance << "km" << endl;
         cout << "fuel : " << Fuel << " litter" << endl;
     }
