@@ -29,7 +29,7 @@ int calc(int x)
     bill = x - discount + sgst + cgst;
 
     cout << "\t\t=======================================" << endl;
-    
+
     cout << "\t\t=======================================" << endl;
 
     cout << "\t\t Total bill=" << x << endl;
@@ -47,6 +47,7 @@ int main()
     cafe b;
     int ch;
     int qty[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+    int n[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
     int price;
     int amount;
     int total = 0;
@@ -77,82 +78,82 @@ int main()
         {
         case 1:
             cout << "Enter qty: " << endl;
-            cin >> qty[0];
-            amount = 120 * qty[0];
+            cin >> n[0];
+            amount = 120 * n[0];
             total += amount;
-            qty[0] += qty[0];
+            qty[0] += n[0];
             break;
 
         case 2:
             cout << "Enter qty: " << endl;
-            cin >> qty[1];
-            amount =  130 * qty[1];
+            cin >> n[1];
+            amount = 130 * n[1];
             total += amount;
-            qty[1] += qty[1];
+            qty[1] += n[1];
             break;
 
         case 3:
             cout << "Enter qty: " << endl;
-            cin >> qty[2];
-            amount = 130 * qty[2];
+            cin >> n[2];
+            amount = 130 * n[2];
             total += amount;
-            qty[2] += qty[2];
+            qty[2] += n[2];
             break;
 
         case 4:
             cout << "Enter qty: " << endl;
-            cin >> qty[3];
-            amount = 140 * qty[3];
+            cin >> n[3];
+            amount = 140 * n[3];
             total += amount;
-            qty[3] += qty[3];
+            qty[3] += n[3];
             break;
 
         case 5:
             cout << "Enter qty: " << endl;
-            cin >> qty[4];
-            amount = 130 * qty[4];
+            cin >> n[4];
+            amount = 130 * n[4];
             total += amount;
-            qty[4] += qty[4];
+            qty[4] += n[4];
             break;
 
         case 6:
             cout << "Enter qty: " << endl;
-            cin >> qty[5];
-            amount = 120 * qty[5];
+            cin >> n[5];
+            amount = 120 * n[5];
             total += amount;
-            qty[5] += qty[5];
+            qty[5] += n[5];
             break;
 
         case 7:
             cout << "Enter qty: " << endl;
-            cin >> qty[6];
-            amount = 130 * qty[6];
+            cin >> n[6];
+            amount = 130 * n[6];
             total += amount;
-            qty[6] += qty[6];
+            qty[6] += n[6];
             break;
 
         case 8:
             cout << "Enter qty: " << endl;
-            cin >> qty[7];
-            amount = 130 * qty[7];
+            cin >> n[7];
+            amount = 130 * n[7];
             total += amount;
-            qty[7] += qty[7];
+            qty[7] += n[7];
             break;
 
         case 9:
             cout << "Enter qty: " << endl;
-            cin >> qty[8];
-            amount = 150 * qty[8];
+            cin >> n[8];
+            amount = 150 * n[8];
             total += amount;
-            qty[8] += qty[8];
+            qty[8] += n[8];
             break;
 
         case 10:
             cout << "Enter qty: " << endl;
-            cin >> qty[9];
-            amount = 110 * qty[9];
+            cin >> n[9];
+            amount = 110 * n[9];
             total += amount;
-            qty[9] += qty[9];
+            qty[9] += n[9];
             break;
 
         case 11:
