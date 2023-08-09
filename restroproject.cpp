@@ -28,7 +28,6 @@ int calc(int x)
     cgst = (x * 2.5) / 100;
     netbill = x - discount + sgst + cgst;
 
-    cout << "<<<<<<<<<<pkathiriya62>>>>>>>>>>" << endl;
     cout << "<<<<<<<<<welcome to 3story.>>>>>>>>>" << endl;
 
     cout << " Discount......  " << discount << endl;
@@ -51,7 +50,6 @@ int main()
     do
     {
 
-        cout << "<<<<<<<<<<pkathiriya62>>>>>>>>>>" << endl;
         cout << "<<<<<<<<<welcome to 3story.>>>>>>>>>" << endl;
         cout << "1.cappacino..........120 Rs                  6.mocktail............120 Rs " << endl;
         cout << "2.frappe...........130 Rs                  7.mint mohito......130 Rs " << endl;
