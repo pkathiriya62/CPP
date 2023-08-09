@@ -12,7 +12,7 @@ public:
     {
         cout << "Enter Customer name :" << endl;
         cin >> name;
-        cout << "Enter customer Mobile Number :" << endl;
+        cout << " Mobile Number :" << endl;
         cin >> number;
     }
 };
@@ -29,7 +29,7 @@ int calc(int x)
     netbill = x - discount + sgst + cgst;
 
     cout << "<<<<<<<<<<pkathiriya62>>>>>>>>>>" << endl;
-    cout << "       welcome to 3story.       " << endl;
+    cout << "<<<<<<<<<welcome to 3story.>>>>>>>>>" << endl;
 
     cout << " Discount......  " << discount << endl;
     cout << " SGST............" << sgst << endl;
@@ -52,7 +52,7 @@ int main()
     {
 
         cout << "<<<<<<<<<<pkathiriya62>>>>>>>>>>" << endl;
-        cout << "       welcome to 3story.       " << endl;
+        cout << "<<<<<<<<<welcome to 3story.>>>>>>>>>" << endl;
         cout << "1.cappacino..........120 Rs                  6.mocktail............120 Rs " << endl;
         cout << "2.frappe...........130 Rs                  7.mint mohito......130 Rs " << endl;
         cout << "3.chocalate frappe.....130 Rs                  8.ice cream.........130 Rs " << endl;
@@ -60,33 +60,33 @@ int main()
         cout << "5.garlic rice..............130 Rs                 10. choco thickshake.......110 Rs" << endl;
         cout << "11.bill plz                           " << endl;
 
-        cout << "Enter your order " << endl;
+        cout << "Enter your order: " << endl;
         cin >> ch;
         switch (ch)
         {
         case 1:
-            cout << "Enter quantity " << endl;
+            cout << "Enter quantity: " << endl;
             cin >> quantity;
             amount = 120 * quantity;
             total += amount;
             break;
 
         case 2:
-            cout << "Enter quantity " << endl;
+            cout << "Enter quantity: " << endl;
             cin >> quantity;
             amount = total + 130 * quantity;
             total += amount;
             break;
 
         case 3:
-            cout << "Enter quantity " << endl;
+            cout << "Enter quantity: " << endl;
             cin >> quantity;
             amount = total + 130 * quantity;
             total += amount;
             break;
 
         case 4:
-            cout << "Enter quantity " << endl;
+            cout << "Enter quantity: " << endl;
             cin >> quantity;
 
             amount = total + 140 * quantity;
@@ -94,49 +94,49 @@ int main()
             break;
 
         case 5:
-            cout << "Enter quantity " << endl;
+            cout << "Enter quantity: " << endl;
             cin >> quantity;
             amount = total + 130 * quantity;
             total += amount;
             break;
 
         case 6:
-            cout << "Enter quantity " << endl;
+            cout << "Enter quantity: " << endl;
             cin >> quantity;
             amount = total + 120 * quantity;
             total += amount;
             break;
 
         case 7:
-            cout << "Enter quantity " << endl;
+            cout << "Enter quantity: " << endl;
             cin >> quantity;
             amount = total + 130 * quantity;
             total += amount;
             break;
 
         case 8:
-            cout << "Enter quantity " << endl;
+            cout << "Enter quantity: " << endl;
             cin >> quantity;
             amount = total + 130 * quantity;
             total += amount;
             break;
 
         case 9:
-            cout << "Enter quantity " << endl;
+            cout << "Enter quantity: " << endl;
             cin >> quantity;
             amount = total + 150 * quantity;
             total += amount;
             break;
 
         case 10:
-            cout << "Enter quantity " << endl;
+            cout << "Enter quantity: " << endl;
             cin >> quantity;
             amount = total + 110 * quantity;
             total += amount;
             break;
 
         case 11:
-            cout << "bill plz" << endl;
+            cout << "bill plz." << endl;
 
             break;
 
