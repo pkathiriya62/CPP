@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-class bill
+class cafe
 {
 
 public:
     string name;
     double number;
 
-    int getinfo()
+    int info()
     {
         cout << "Enter Customer name :" << endl;
         cin >> name;
@@ -21,31 +21,31 @@ int calc(int x)
 {
     float discount;
     float sgst, cgst;
-    float netbill;
+    float bill;
 
     discount = (x * 10) / 100;
     sgst = (x * 2.5) / 100;
     cgst = (x * 2.5) / 100;
-    netbill = x - discount + sgst + cgst;
+    bill = x - discount + sgst + cgst;
 
     cout << "<<<<<<<<<welcome to 3story.>>>>>>>>>" << endl;
 
-    cout << " Discount......  " << discount << endl;
-    cout << " SGST............" << sgst << endl;
-    cout << " CGST............" << cgst << endl;
-    cout << " Net amount......" << netbill << endl;
+    cout << " Discount=>  " << discount << endl;
+    cout << " SGST=>" << sgst << endl;
+    cout << " CGST=>" << cgst << endl;
+    cout << " Net amount=>" << bill << endl;
 }
 
 int main()
 {
-    bill b;
+    cafe b;
     int ch;
     int quantity;
     int price;
     int amount;
     int total = 0;
 
-    b.getinfo();
+    b.info();
 
     do
     {
