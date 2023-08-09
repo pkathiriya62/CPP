@@ -64,7 +64,7 @@ int main()
     cout << "\t\t7.mint mohito.........................130 Rs" << endl;
     cout << "\t\t8.ice cream...........................130 Rs" << endl;
     cout << "\t\t9.coco................................150 Rs" << endl;
-    cout << "\t\t10. choco thickshake..................110 Rs" << endl;
+    cout << "\t\t10.cheezcake..................110 Rs" << endl;
     cout << "\t\t=======================================" << endl;
     cout << "\t\t\tConfirm Order press 11" << endl;
     cout << "\t\t=======================================" << endl;
@@ -224,7 +224,7 @@ int main()
              << "150"
              << "\t" << 150 * qty[8] << endl;
     if (qty[9] != 0)
-        cout << "\t\t10.choco thickshake"
+        cout << "\t\t10.cheezcake"
              << "\t" << qty[9] << "\t"
              << "110"
              << "\t" << 110 * qty[9] << endl;
