@@ -17,20 +17,20 @@ public:
     }
 };
 
-int calc(int x)
+int calc(int p)
 {
 
     float discount;
     float sgst, cgst;
     float bill;
 
-    discount = (x * 10) / 100;
-    sgst = (x * 2.5) / 100;
-    cgst = (x * 2.5) / 100;
-    bill = x - discount + sgst + cgst;
+    discount = (p * 10) / 100;
+    sgst = (p * 2.5) / 100;
+    cgst = (p * 2.5) / 100;
+    bill = p - discount + sgst + cgst;
     cout << "\t\t=======================================" << endl;
     cout << "\t\t=======================================" << endl;
-    cout << "\t\t *Total bill=" << x << endl;
+    cout << "\t\t *Total bill=" << p << endl;
     cout << "\t\t *Discount=" << discount << endl;
     cout << "\t\t *SGST=" << sgst << endl;
     cout << "\t\t *CGST=" << cgst << endl;
