@@ -19,6 +19,7 @@ public:
 
 int calc(int x)
 {
+    
     float discount;
     float sgst, cgst;
     float bill;
@@ -27,11 +28,8 @@ int calc(int x)
     sgst = (x * 2.5) / 100;
     cgst = (x * 2.5) / 100;
     bill = x - discount + sgst + cgst;
-
     cout << "\t\t=======================================" << endl;
-
     cout << "\t\t=======================================" << endl;
-
     cout << "\t\t Total bill=" << x << endl;
     cout << "\t\t Discount=" << discount << endl;
     cout << "\t\t SGST=" << sgst << endl;
