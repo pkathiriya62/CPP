@@ -19,7 +19,7 @@ public:
 
 int calc(int x)
 {
-    
+
     float discount;
     float sgst, cgst;
     float bill;
@@ -30,11 +30,11 @@ int calc(int x)
     bill = x - discount + sgst + cgst;
     cout << "\t\t=======================================" << endl;
     cout << "\t\t=======================================" << endl;
-    cout << "\t\t Total bill=" << x << endl;
-    cout << "\t\t Discount=" << discount << endl;
-    cout << "\t\t SGST=" << sgst << endl;
-    cout << "\t\t CGST=" << cgst << endl;
-    cout << "\t\t payable amount=" << bill << endl;
+    cout << "\t\t *Total bill=" << x << endl;
+    cout << "\t\t *Discount=" << discount << endl;
+    cout << "\t\t *SGST=" << sgst << endl;
+    cout << "\t\t *CGST=" << cgst << endl;
+    cout << "\t\t *payable amount=" << bill << endl;
     cout << "\t\t=======================================" << endl;
     cout << "\t\t        Thank you visit again." << endl;
     cout << "\t\t=======================================" << endl;
